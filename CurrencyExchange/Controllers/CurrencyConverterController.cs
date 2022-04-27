@@ -5,7 +5,7 @@ namespace CurrencyExchange.Controllers
 {
     
     [ApiController]
-    [Route("Api/Controller", Name = "Converter")]
+    [Route("api/[controller]")]
     public class CurrencyConverterController : ControllerBase
     {
         private readonly ICurrencyConverterService _currencyConverterService;
