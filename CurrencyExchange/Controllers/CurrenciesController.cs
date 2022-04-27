@@ -6,7 +6,7 @@ using ServiceLayer.Interfaces;
 namespace CurrencyExchange.Controllers
 {
     [ApiController]
-    [Route("api/Controller")]
+    [Route("api/[controller]")]
     public class CurrenciesController : ControllerBase
     {
         private readonly ICurrenciesService _currenciesService;
